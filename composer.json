@@ -1,0 +1,23 @@
+{
+	"name": "ricardoboss/gh-crawler-api",
+	"description": "geizhals Crawler API",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ricardo Boss",
+			"email": "contact@ricardoboss.de"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"Geizhals\\Crawler\\": "src/"
+		}
+	},
+	"require": {
+		"paquettg/php-html-parser": "^3.1",
+		"symfony/http-foundation": "^5.2"
+	}
+}
